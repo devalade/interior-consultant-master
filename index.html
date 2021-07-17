@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <!-- stylesheet  -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <!-- Navbar  -->
+        <nav>
+          <div>
+            <h4>This Interior</h4>
+            <span class="menu-toggle" id="menu-toggle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Collection</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+      </nav>
+            <ul class="mobile-nav" id="mobile-nav">
+              <li><a href="">Home</a></li>
+              <li><a href="">Collection</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+      <div class="hero-section">
+        <div class ="left">
+          <h2>Modern interior</h2>
+          <p>
+            A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.
+          </p>
+          <a href="">
+            <h4 >Read more</h4><span class="material-icons">trending_flat</span>
+          </a>
+        </div>
+        <!-- Left side of the Hero Section  -->
+        <div class="right">
+          <img src="./image/photo1.png" alt="">
+          <div class="card">
+            <div class="card-content">
+              <div class="card-info">
+                <img class="card-image" src="./image/photo2.png" alt="Aliza Webber">
+                <div>
+                  <h5>Aliza Webber</h5>
+                  <small>Interior designer</small>
+                </div>
+              </div>
+              <p> Designed in 2020 by Aliza Webber</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Footer  -->
+    <footer>
+      created by <a href="https://github.com/devalade">devalade</a> - <a href="https://devchallenges.io">devChallenges.io</a>
+    </footer>
+    <script>
+      const toggleBtn = document.getElementById("menu-toggle");
+      const mobileNav = document.getElementById("mobile-nav");
+      toggleBtn.addEventListener("click", () => {
+        toggleBtn.classList.toggle("is-active");
+        mobileNav.classList.toggle("is-active");
+      })
+    
+    </script>
+  </body>
+</html>
