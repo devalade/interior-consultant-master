@@ -2,17 +2,17 @@
 
 <h1 align="center">Inrerior Consultant Master</h1>
 
-<div align="center">
+<div align="">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://interior-consultant-master-devchallenge.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/paths/responsive-web-developer/solutions">
       Solution
     </a>
     <span> | </span>
@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](./images/screenshot.png)
+![screenshot](image/screenshot.png)
 
 This is final result. You can view the page by cliking on demo.
 
