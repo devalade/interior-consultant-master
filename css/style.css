@@ -97,6 +97,10 @@ nav h4 {
     transition: .25s ease-in-out;
 }
 
+.menu-toggle:hover span {
+    padding-bottom: 1px;
+}
+
 .menu-toggle span:nth-child(1) {
   top: 0px;
   -webkit-transform-origin: left center;
@@ -193,7 +197,7 @@ nav ul li a:hover:after {
 }
 
 .left h2 {
-    font-size: 5em;
+    font-size: 4.5em;
     font-family: Lora;
     margin-bottom: 1.2em;
 }
@@ -303,6 +307,10 @@ footer a:first-child  {
 }
 
 @media (max-width: 990px) {
+    .container .wrapper {
+        padding: 0 2em;
+    }
+
     .hero-section .right img {
         height: 35vh;
     }
@@ -388,7 +396,10 @@ footer a:first-child  {
 }
 
 @media (max-width: 700px) {
-    
+    .container .wrapper {
+        padding: 0 1em;
+    }
+
     nav * {
         z-index: 2;
     }
@@ -492,7 +503,10 @@ footer a:first-child  {
 }
 
 @media (max-width: 475px) {
-    
+    .container .wrapper {
+        padding: 0 1em;
+    }
+
     .left h2 {
         font-size: 2em;
         margin-bottom: .5em;
@@ -511,14 +525,6 @@ footer a:first-child  {
     }
     .card-content p {
         font-weight: 700;
-        font-size: 1.1em;
+        font-size: 1.5em;
     }
-
-
-/* .card-content p {
-    font-family: Lora;
-    font-weight: 700;
-    font-size: 1.8em;
-    margin-top: .5em;
-} */
 }
